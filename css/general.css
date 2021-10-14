@@ -52,6 +52,10 @@ border-radius- 9px
   gap: 5.6rem;
 }
 
+.align-center {
+  display: block;
+  text-align: center;
+}
 * {
   margin: 0;
   padding: 0;

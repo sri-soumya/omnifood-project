@@ -221,6 +221,12 @@
   height: fit-content;
 
   width: fit-content;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 3.6rem 7.2rem rgba(0, 0, 0, 0.075);
 }
 
 .meal-img {
@@ -286,4 +292,52 @@
 
 .tag-paleo {
   background-color: #fcc419;
+}
+
+.list-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.list-item {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.list-item span {
+  font-size: 1.8rem;
+}
+
+.check-icon {
+  font-size: 2.2rem;
+  color: #e67e22;
+  font-weight: 700;
+}
+
+.more-recipes {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.more-recipes-link:link,
+.more-recipes-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #e67e22;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: all 0.3s;
+}
+
+.more-recipes-link:hover,
+.more-recipes-link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+span p {
+  text-align: center;
 }

@@ -531,6 +531,10 @@ span p {
 /* SECTION CTA */
 /* **************** */
 
+.section-cta {
+  padding: 1.2rem 0 12.8rem 0;
+}
+
 .cta {
   background-image: linear-gradient(to bottom right, #eb984e, #e67e22);
 
@@ -611,4 +615,87 @@ label {
 .cta-form :focus {
   outline: none;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* ************ */
+/* SECTION FOOTER */
+/* **************** */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 2px solid rgb(245, 241, 241);
+}
+
+.grid-5-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright-text {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-top: auto;
+  color: #767676;
+}
+
+.address {
+  font-size: 1.6rem;
+  line-height: 1.8;
+
+  margin-bottom: 3.2rem;
+}
+
+.tel-mail {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-link a:link,
+.footer-link a:visited,
+.tel-mail:link,
+.tel-mail:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link a:hover,
+.footer-link a:active,
+.tel-mail:hover,
+.tel-mail:active {
+  color: #555;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }

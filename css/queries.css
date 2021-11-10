@@ -1,0 +1,126 @@
+/* ************ */
+/* BREAKPOINT FOR SMALLER LAPTOPS AT 1344PX */
+/* **************** */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .main-heading {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ************ */
+/* BREAKPOINT FOR LANDSCAPE TABLETS AT 1200PX */
+/* **************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .grid-align-gap {
+    column-gap: 0.01rem;
+    row-gap: 10rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.2rem;
+  }
+
+  .tertiary-heading {
+    font-size: 2.4rem;
+  }
+
+  .test-gal {
+    gap: 8rem;
+  }
+
+  .section-testimonials {
+    padding-left: 8rem;
+  }
+}
+
+/* ************ */
+/* BREAKPOINT FOR TABLETS AT 944px */
+/* **************** */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text-div,
+  .hero-img-div {
+    text-align: center;
+  }
+
+  .faces-div {
+    justify-content: center;
+    padding-top: 3.2rem;
+    padding-bottom: 6.4rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .hero-text-div h1,
+  .hero-text-div .hero-desc {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .number {
+    font-size: 7.2rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .meal-heading {
+    margin-bottom: 3.2rem;
+  }
+
+  .test-gal {
+    grid-template-columns: 1fr;
+    gap: 14rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .section-testimonials {
+    padding: 6.4rem;
+  }
+  .cta {
+    grid-template-columns: 60fr 40fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-form {
+    margin-top: 2rem;
+  }
+}

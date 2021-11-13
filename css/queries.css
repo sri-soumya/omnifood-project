@@ -127,6 +127,7 @@
   .btn-mobile-nav {
     display: block;
     border: none;
+    z-index: 10000;
   }
 
   .mobile-icon {

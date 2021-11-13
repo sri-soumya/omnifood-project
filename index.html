@@ -19,6 +19,10 @@
       nomodule
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="js/script.js"></script>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -31,12 +35,14 @@
       </a>
       <nav class="main-nav mobile-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-item">How it works</a></li>
-          <li><a href="#" class="main-nav-item">Meals</a></li>
-          <li><a href="#" class="main-nav-item">Testimonials</a></li>
-          <li><a href="#" class="main-nav-item">Pricing</a></li>
+          <li><a href="#how" class="main-nav-item">How it works</a></li>
+          <li><a href="#meals" class="main-nav-item">Meals</a></li>
           <li>
-            <a href="#" class="main-nav-item main-nav-cta">Try for free</a>
+            <a href="#testimonials" class="main-nav-item">Testimonials</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-item">Pricing</a></li>
+          <li>
+            <a href="#cta" class="main-nav-item main-nav-cta">Try for free</a>
           </li>
         </ul>
       </nav>
@@ -59,10 +65,10 @@
               nutritional needs.
             </p>
             <div class="hero-btn">
-              <a href="#" class="btn btn-main margin-right"
+              <a href="#cta" class="btn btn-main margin-right"
                 >Start eating well</a
               >
-              <a href="#" class="btn btn-sec">Learn more &darr;</a>
+              <a href="#how" class="btn btn-sec">Learn more &darr;</a>
             </div>
 
             <div class="faces-div">
@@ -99,7 +105,7 @@
         </div>
       </section>
 
-      <section class="container section-how-to">
+      <section class="container section-how-to" id="how">
         <span><p class="subheading">How it works</p></span>
         <h2 class="secondary-heading">
           Your daily dose of health in 3 simple steps!
@@ -150,7 +156,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container">
           <span class="align-center"><p class="subheading">meals</p></span>
           <h2 class="secondary-heading">
@@ -285,7 +291,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <h2 class="subheading">testimonials</h2>
         <div class="test-gal">
           <div class="testimonials-box">
@@ -389,7 +395,7 @@
         </div>
       </section>
 
-      <section class="container section-pricing">
+      <section class="container section-pricing" id="pricing">
         <span><p class="subheading">Pricing</p></span>
         <h2 class="secondary-heading">Eat well without breaking the bank</h2>
         <div class="grid grid-2-cols column-width">
@@ -494,7 +500,7 @@
         </div>
       </section>
 
-      <section class="section-cta container">
+      <section class="section-cta container" id="cta">
         <div class="cta">
           <div class="cta-text">
             <h2 class="secondary-heading cta-heading">

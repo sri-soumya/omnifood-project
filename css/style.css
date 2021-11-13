@@ -78,7 +78,7 @@
   height: 4.8rem;
   width: 4.8rem;
   color: #333;
-  background-color: #fdf2e9;
+  background-color: transparent;
 
   /* display: none; */
 }
@@ -104,10 +104,16 @@
   column-gap: 9.6rem;
 }
 
-.hero-img {
-  width: 100%;
+.hero-img-box picture {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
+.hero-img {
+  width: 100%;
+  text-align: center;
+}
 .section-hero {
   /* height: 100vh; */
   background-color: #fdf2e9;

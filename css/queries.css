@@ -193,6 +193,10 @@
     display: none;
     /* background-color: #fdf2e9f8; */
   }
+
+  .sticky .btn-mobile-nav {
+    background-color: transparent;
+  }
 }
 
 /* ************ */
